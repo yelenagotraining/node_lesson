@@ -15,8 +15,14 @@ exports.postAddProduct = (req, res, next) => {
   const description = req.body.description;
   //null on a product constructor indicates that it is a new product and should be in create mode. 
   const product = new Product(null, title, imageUrl, description, price);
-  product.save();
-  res.redirect('/');
+  product
+  .save()
+  .then(() => {
+    res.redirect('/');
+  })
+  .catch(err => console.log(err));
+
+  
 };
 
 

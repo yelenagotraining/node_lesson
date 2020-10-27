@@ -34,3 +34,10 @@ app.listen(3000);
 > Make sure your "catch all"route is last, e.g. 404
 > It could also be a route to home '/'
 
+> To run the program:
+```javascript
+npm start
+```
+```javascript
+npm install --save mysql2
+```
