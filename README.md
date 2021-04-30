@@ -1,3 +1,5 @@
+### repo
+[ https://github.com/yelenagotraining/node_lesson.git]( https://github.com/yelenagotraining/node_lesson.git)
 # Understanding NPM Scripts
 `npm init`
 
